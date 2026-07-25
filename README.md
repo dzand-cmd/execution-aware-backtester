@@ -1,4 +1,4 @@
-# Execution-Aware Trading Simulator
+# Execution-Aware Backtester
 
 **Author:** Dzandu Selorm(dzand-cmd)  
 **Project Type:** Quantitative Trading  
@@ -10,7 +10,7 @@
 
 ## Overview
 
-This project implements an execution-aware trading simulator that models how trading strategies behave under realistic market execution constraints. It simulates order placement, partial fills, slippage, and execution delays to bridge the gap between theoretical signals and real-world trading performance.
+This project implements an execution-aware backtester that models how trading strategies behave under realistic market execution constraints. It simulates order placement, partial fills, slippage, and execution delays to bridge the gap between theoretical signals and real-world trading performance.
 
 The objective is to evaluate how execution frictions impact strategy profitability and risk-adjusted returns.
 
@@ -19,10 +19,10 @@ The objective is to evaluate how execution frictions impact strategy profitabili
 
 ## Project Structure
 
-execution-aware-trading-simulator/
+execution-aware-backtester/
 │
 ├── src/
-│   ├── execution_aware_trading_simulator.py      # Core execution simulation loop
+│   ├── execution_aware_backtester.py      # Core execution simulation loop
 ├── README.md            # Project documentation
 
 
@@ -80,9 +80,9 @@ A profitable signal can become unprofitable after realistic execution cost
 
 ## How To Run 
 
-git clone https://github.com/dzand-cmd/execution-aware-trading-simulator.git
-cd execution-aware-trading-simulator
-python execution_aware_trading_simulator.py
+git clone https://github.com/dzand-cmd/execution-aware-backtester.git
+cd execution-aware-backtester
+python execution_aware_backtester.py
 
 
 
